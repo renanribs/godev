@@ -5,12 +5,12 @@ const mediaAlunos = [10, 7, 9, 6];
 
 let listaNotas = [alunos, mediaAlunos];
 
-const exibeNomeNota = (nomeAlunos) => {
-  if (listaNotas[0].includes(nomeAlunos)) {
-    let indice = listaNotas[0].indexOf(nomeAlunos);
-    return listaNotas[0][indice] + ", sua nota é: " + listaNotas[1][indice];
+let exibeNomeNota = (nomeAluno) => {
+  if (listaNotas[0].includes(nomeAluno)) {
+    let indice = listaNotas[0].indexOf(nomeAluno);
+    return listaNotas[0][indice] + ", sua nota é " + listaNotas[1][indice];
   } else {
-    ("Aluno não encontrado.");
+    return "Nome não está na lista.";
   }
 };
 
