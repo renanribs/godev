@@ -11,5 +11,4 @@ function fibonacci(n) {
   }
   return serie;
 }
-
 module.exports = fibonacci;
