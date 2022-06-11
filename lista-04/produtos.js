@@ -46,6 +46,4 @@ function oferecerSeguro(obj) {
   }
 }
 
-console.log(Object.entries(cliente));
-
-oferecerSeguro(cliente);
+console.log(Object.entries(cliente)[5]);
