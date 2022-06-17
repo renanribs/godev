@@ -1,0 +1,29 @@
+// if ((A == "vertebrado") & (B == "ave") & (C == " carnivoro")) {
+//   console.log("aguia");
+//}
+// if (A.equals("vertebrado") && B.equals("ave") && C.equals("onivoro")) {
+//   console.log("pomba");
+// }
+// if (A.equals("vertebrado") && B.equals("mamifero") && C.equals("onivoro")) {
+//   console.log("homem");
+// }
+// if (A.equals("vertebrado") && B.equals("mamifero") && C.equals("herbivoro")) {
+//   console.log("vaca");
+// }
+
+// if (A.equals("invertebrado") && B.equals("inseto") && C.equals("hematofago")) {
+//   console.log("pulga");
+// }
+// if (A.equals("invertebrado") && B.equals("inseto") && C.equals("herbivoro")) {
+//   console.log("lagarta");
+// }
+// if (
+//   A.equals("invertebrado") &&
+//   B.equals("anelideo") &&
+//   C.equals("hematofago")
+// ) {
+//   console.log("sanguessuga");
+// }
+// if (A.equals("invertebrado") && B.equals("anelideo") && C.equals("onivoro")) {
+//   console.log("minhoca");
+// }
