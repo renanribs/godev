@@ -1,5 +1,5 @@
-import chalk from "chalk";
-import fs from "fs";
+const chalk = require("chalk");
+const fs = require("fs");
 
 function extraiLinks(texto) {
   const regex = /\[([^\]]*)\]\((https?:\/\/[^$#\s].[^\s]*)\)/gm;
@@ -8,7 +8,7 @@ function extraiLinks(texto) {
   while ((temp = regex.exec(texto)) !== null) {
     arrayResultados.push({ [temp[1]]: temp[2] });
   }
-  return arrayResultados;
+  return arrayResultados.length === 0 ? "não há links" : arrayResultados;
 }
 
 function trataErro(erro) {
@@ -24,5 +24,5 @@ async function pegaArquivo(caminhoDoArquivo) {
     trataErro(erro);
   }
 }
+
 module.exports = pegaArquivo;
-// pegaArquivo("./arquivos/texto.md");
