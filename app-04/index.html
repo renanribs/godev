@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Campeonato ACME</title>
+  </head>
+  <body>
+    <div class="div">
+      <table class="table">
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="titulo coluna background" id="pontos">P</td>
+          <td class="titulo coluna">J</td>
+          <td class="titulo coluna background">V</td>
+          <td class="titulo coluna">E</td>
+          <td class="titulo coluna background">D</td>
+          <td class="titulo coluna">GP</td>
+          <td class="titulo coluna background">GC</td>
+          <td class="titulo coluna">SG</td>
+          <td class="titulo coluna background">%</td>
+        </tr>
+        <tr>
+          <td class="libertadores" id="classificacao">1</td>
+          <td class="nomeTime">Corinthians</td>
+          <td id="pontos">17</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">5</td>
+          <td class="numerosGeral">2</td>
+          <td class="numerosGeral background">0</td>
+          <td class="numerosGeral">15</td>
+          <td class="numerosGeral background">8</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">81</td>
+        </tr>
+        <tr>
+          <td class="libertadores" id="classificacao">2</td>
+          <td class="nomeTime">Ceará</td>
+          <td id="pontos">17</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">5</td>
+          <td class="numerosGeral">2</td>
+          <td class="numerosGeral background">0</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">1</td>
+          <td class="numerosGeral">6</td>
+          <td class="numerosGeral background">81</td>
+        </tr>
+        <tr>
+          <td class="libertadores" id="classificacao">3</td>
+          <td class="nomeTime">Fluminense</td>
+          <td id="pontos">15</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">5</td>
+          <td class="numerosGeral">0</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">11</td>
+          <td class="numerosGeral background">5</td>
+          <td class="numerosGeral">6</td>
+          <td class="numerosGeral background">71.4</td>
+        </tr>
+        <tr>
+          <td class="preLibertadores" id="classificacao">4</td>
+          <td class="nomeTime">Santos</td>
+          <td id="pontos">12</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">3</td>
+          <td class="numerosGeral">3</td>
+          <td class="numerosGeral background">1</td>
+          <td class="numerosGeral">15</td>
+          <td class="numerosGeral background">10</td>
+          <td class="numerosGeral">5</td>
+          <td class="numerosGeral background">57.1</td>
+        </tr>
+        <tr>
+          <td class="sulAmericanas" id="classificacao">5</td>
+          <td class="nomeTime">São Paulo</td>
+          <td id="pontos">11</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">3</td>
+          <td class="numerosGeral">2</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">9</td>
+          <td class="numerosGeral background">6</td>
+          <td class="numerosGeral">3</td>
+          <td class="numerosGeral background">52.4</td>
+        </tr>
+        <tr>
+          <td class="sulAmericanas" id="classificacao">6</td>
+          <td class="nomeTime">Goiás</td>
+          <td id="pontos">10</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">3</td>
+          <td class="numerosGeral">1</td>
+          <td class="numerosGeral background">3</td>
+          <td class="numerosGeral">9</td>
+          <td class="numerosGeral background">10</td>
+          <td class="numerosGeral">-1</td>
+          <td class="numerosGeral background">47.6</td>
+        </tr>
+        <tr>
+          <td class="sulAmericanas" id="classificacao">7</td>
+          <td class="nomeTime">Botafogo</td>
+          <td id="pontos">9</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">3</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">13</td>
+          <td class="numerosGeral background">11</td>
+          <td class="numerosGeral">2</td>
+          <td class="numerosGeral background">42.9</td>
+        </tr>
+        <tr>
+          <td class="sulAmericanas" id="classificacao">8</td>
+          <td class="nomeTime">Flamengo</td>
+          <td id="pontos">9</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">3</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">9</td>
+          <td class="numerosGeral background">8</td>
+          <td class="numerosGeral">1</td>
+          <td class="numerosGeral background">42.9</td>
+        </tr>
+        <tr>
+          <td class="sulAmericanas" id="classificacao">9</td>
+          <td class="nomeTime">Cruzeiro</td>
+          <td id="pontos">9</td>
+          <td class="numerosGeral">6</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">3</td>
+          <td class="numerosGeral background">1</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">6</td>
+          <td class="numerosGeral">1</td>
+          <td class="numerosGeral background">50</td>
+        </tr>
+        <tr>
+          <td class="sulAmericanas" id="classificacao">10</td>
+          <td class="nomeTime">Guarani</td>
+          <td id="pontos">9</td>
+          <td class="numerosGeral">6</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">3</td>
+          <td class="numerosGeral background">1</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">7</td>
+          <td class="numerosGeral">0</td>
+          <td class="numerosGeral background">50</td>
+        </tr>
+        <tr>
+          <td class="sulAmericanas" id="classificacao">11</td>
+          <td class="nomeTime">Palmeiras</td>
+          <td id="pontos">8</td>
+          <td class="numerosGeral">6</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">2</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">5</td>
+          <td class="numerosGeral background">4</td>
+          <td class="numerosGeral">1</td>
+          <td class="numerosGeral background">44.4</td>
+        </tr>
+        <tr>
+          <td class="sulAmericanas" id="classificacao">12</td>
+          <td class="nomeTime">Grêmio</td>
+          <td id="pontos">8</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">2</td>
+          <td class="numerosGeral background">3</td>
+          <td class="numerosGeral">10</td>
+          <td class="numerosGeral background">11</td>
+          <td class="numerosGeral">-1</td>
+          <td class="numerosGeral background">38.1</td>
+        </tr>
+        <tr>
+          <td class="continuaSerieA" id="classificacao">13</td>
+          <td class="nomeTime">Avai</td>
+          <td id="pontos">8</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">2</td>
+          <td class="numerosGeral background">3</td>
+          <td class="numerosGeral">10</td>
+          <td class="numerosGeral background">11</td>
+          <td class="numerosGeral">-1</td>
+          <td class="numerosGeral background">38.1</td>
+        </tr>
+        <tr>
+          <td class="continuaSerieA" id="classificacao">14</td>
+          <td class="nomeTime">Vitória</td>
+          <td id="pontos">8</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">2</td>
+          <td class="numerosGeral background">3</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">8</td>
+          <td class="numerosGeral">-1</td>
+          <td class="numerosGeral background">38.1</td>
+        </tr>
+        <tr>
+          <td class="continuaSerieA" id="classificacao">15</td>
+          <td class="nomeTime">Prudente</td>
+          <td id="pontos">8</td>
+          <td class="numerosGeral">6</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">2</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">9</td>
+          <td class="numerosGeral background">11</td>
+          <td class="numerosGeral">-2</td>
+          <td class="numerosGeral background">44.4</td>
+        </tr>
+        <tr>
+          <td class="continuaSerieA" id="classificacao">16</td>
+          <td class="nomeTime">Atlético-PR</td>
+          <td id="pontos">7</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">1</td>
+          <td class="numerosGeral background">4</td>
+          <td class="numerosGeral">10</td>
+          <td class="numerosGeral background">15</td>
+          <td class="numerosGeral">-5</td>
+          <td class="numerosGeral background">33.3</td>
+        </tr>
+        <tr>
+          <td class="rebaixado" id="classificacao">17</td>
+          <td class="nomeTime">Internacional</td>
+          <td id="pontos">6</td>
+          <td class="numerosGeral">6</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">0</td>
+          <td class="numerosGeral background">4</td>
+          <td class="numerosGeral">10</td>
+          <td class="numerosGeral background">12</td>
+          <td class="numerosGeral">-2</td>
+          <td class="numerosGeral background">33.3</td>
+        </tr>
+        <tr>
+          <td class="rebaixado" id="classificacao">18</td>
+          <td class="nomeTime">Atlético-MG</td>
+          <td id="pontos">6</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">0</td>
+          <td class="numerosGeral background">5</td>
+          <td class="numerosGeral">10</td>
+          <td class="numerosGeral background">16</td>
+          <td class="numerosGeral">-6</td>
+          <td class="numerosGeral background">28.6</td>
+        </tr>
+        <tr>
+          <td class="rebaixado" id="classificacao">18</td>
+          <td class="nomeTime">Atlético-MG</td>
+          <td id="pontos">6</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">2</td>
+          <td class="numerosGeral">0</td>
+          <td class="numerosGeral background">5</td>
+          <td class="numerosGeral">10</td>
+          <td class="numerosGeral background">16</td>
+          <td class="numerosGeral">-6</td>
+          <td class="numerosGeral background">28.6</td>
+        </tr>
+        <tr>
+          <td class="rebaixado" id="classificacao">19</td>
+          <td class="nomeTime">Vasco</td>
+          <td id="pontos">5</td>
+          <td class="numerosGeral">7</td>
+          <td class="numerosGeral background">1</td>
+          <td class="numerosGeral">2</td>
+          <td class="numerosGeral background">4</td>
+          <td class="numerosGeral">5</td>
+          <td class="numerosGeral background">12</td>
+          <td class="numerosGeral">-7</td>
+          <td class="numerosGeral background">23.8</td>
+        </tr>
+        <tr>
+          <td class="rebaixado" id="classificacao">20</td>
+          <td class="nomeTime">Atlético-GO</td>
+          <td id="pontos">1</td>
+          <td class="numerosGeral">6</td>
+          <td class="numerosGeral background">0</td>
+          <td class="numerosGeral">1</td>
+          <td class="numerosGeral background">5</td>
+          <td class="numerosGeral">3</td>
+          <td class="numerosGeral background">9</td>
+          <td class="numerosGeral">-6</td>
+          <td class="numerosGeral background">5.6</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

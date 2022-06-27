@@ -1,0 +1,75 @@
+* {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.table {
+  border: 1px;
+  border-color: #dd0606;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo {
+  font-size: 13px;
+  color: #999999;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nomeTime {
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+  text-align: left;
+  width: 150px;
+}
+
+#classificacao {
+  font-size: 18px;
+  font-weight: bold;
+  width: 30px;
+}
+
+.div {
+}
+
+.libertadores {
+  color: #003366;
+}
+.preLibertadores {
+  color: #1398be;
+}
+.sulAmericanas {
+  color: #de9800;
+}
+.continuaSerieA {
+  color: #cccccc;
+}
+
+.rebaixado {
+  color: #c91b04;
+}
+
+#pontos {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  background-color: #f7f7f7;
+}
+
+.background {
+  background-color: #f7f7f7;
+}
+
+.numerosGeral {
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+
+.coluna {
+  width: 35px;
+}
