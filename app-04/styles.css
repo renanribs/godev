@@ -21,6 +21,11 @@
   display: flex;
   justify-content: center;
 }
+#titulo {
+  text-align: center;
+  color: #666666;
+  font-weight: bold;
+}
 
 .titulo {
   font-size: 13px;
