@@ -1,38 +1,31 @@
+/* Configurações Gerais */
 * {
   font-family: Arial;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.table {
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
 }
 td {
   border-bottom: 0.5px solid #dddddd;
 }
 
-#linhaMaior {
-  border-bottom: 2px solid #cccccc;
-}
+/* Titulo acima da tabela */
 
-.linhaMaior {
-  border-bottom: 2px solid #cccccc;
-  font-weight: bold;
-}
-
-#rodape {
-  color: #8f8f8f;
-  text-align: left;
-  font-size: 10px;
-  display: flex;
-  justify-content: center;
-}
 #titulo {
   text-align: center;
   color: #666666;
   font-weight: bold;
+}
+
+/* Tabela principal times e pontuação */
+.table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linhaMaior {
+  border-bottom: 2px solid #cccccc;
+}
+#linhaMaior {
+  border-bottom: 2px solid #cccccc;
 }
 
 .titulo {
@@ -49,13 +42,7 @@ td {
   text-align: left;
   width: 150px;
 }
-
-#classificacao {
-  font-size: 18px;
-  font-weight: bold;
-  width: 30px;
-}
-
+/* Cores dos números e Legenda */
 .libertadores {
   color: #003366;
 }
@@ -68,29 +55,49 @@ td {
 .continuaSerieA {
   color: #cccccc;
 }
-
 .rebaixado {
   color: #c91b04;
-}
-
-#pontos {
-  font-size: 14px;
-  color: black;
-  text-align: left;
-  font-weight: bold;
-  background-color: #f7f7f7;
 }
 
 .background {
   background-color: #f7f7f7;
 }
-
 .numerosGeral {
   font-size: 14px;
   color: #666666;
   text-align: center;
 }
-
 .coluna {
   width: 35px;
+}
+.pontos {
+  font-weight: bold;
+}
+
+#pontos {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  background-color: #f7f7f7;
+}
+
+#classificacao {
+  font-size: 18px;
+  font-weight: bold;
+  width: 30px;
+}
+
+/* Tabela secundaria rodape */
+
+#rodape {
+  color: #8f8f8f;
+  text-align: left;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.td-rodape {
+  border: none;
 }
