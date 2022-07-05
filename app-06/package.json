@@ -1,10 +1,12 @@
 {
-  "name": "app-06",
+  "name": "app-05",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js",
+    "debug": "nodemon --inspect src\\app.js"
   },
   "keywords": [],
   "author": "",
