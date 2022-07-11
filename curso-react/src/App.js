@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+
+import Tasks from "./components/Tasks";
 import "./App.css";
 
 const App = () => {
@@ -18,10 +20,10 @@ const App = () => {
 
   return (
     <>
-      <div className="container">{tasks}</div>;
-      <button onClick={() => setTasks("hellooooo world 2")}>
-        mudar mensagem
-      </button>
+      <div className="container">
+        <Tasks tasks={tasks} />
+      </div>
+      ;
     </>
   );
 };
