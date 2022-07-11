@@ -1,2 +1,2 @@
 # GoDev
-Diretorio criado para exercicios do GoDev
+Diretorio criado para estudos relacionado ao programa de formacao GoDev
